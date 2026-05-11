@@ -25,7 +25,7 @@ public class Emprestimo {
     }
     public void devolverLivro(){
         livro.marcarComoDisponivel();
-        System.out.println("Livro devolvido:");
+        System.out.println("Livro devolvido: ");
     }
     public boolean estaAtrasado(LocalDate hoje){
         return hoje.isAfter(dataDevolucao);
