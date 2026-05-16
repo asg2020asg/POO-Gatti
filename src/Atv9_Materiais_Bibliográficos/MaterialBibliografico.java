@@ -1,8 +1,8 @@
 package Atv9_Materiais_Bibliográficos;
 
 public class MaterialBibliografico {
-    private String titulo;
-    private String codigo;
+    protected String titulo;
+    protected String codigo;
     public MaterialBibliografico(String titulo, String codigo) {
         this.titulo = titulo;
         this.codigo = codigo;
